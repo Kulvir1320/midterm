@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Rent Service"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:id="@+id/tagName1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tagName1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/dialyRent1"
+        android:hint="Daily Rent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialyRent1"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:id="@+id/question1"
+        android:text="how many days you want to rent?"/>
+
+    <EditText
+        android:id="@+id/days1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialyRent1"
+        android:layout_toRightOf="@+id/question1"
+        android:layout_marginLeft="80dp"
+        android:inputType="number"
+        android:hint="#days" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/days1"
+        android:layout_marginTop="10dp"
+        android:text="Drivers age"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:id="@+id/textDriver1"/>
+
+    <TextView
+        android:layout_below="@+id/textDriver1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="option"
+        android:layout_marginLeft="35dp"
+        android:textSize="20dp"
+        android:id="@+id/option1"
+        tools:ignore="UnknownId" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/option1"
+        android:layout_marginLeft="35dp"
+        android:text="GPS"
+        android:id="@+id/Check11"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/option1"
+        android:layout_toRightOf="@+id/Check11"
+        android:text="Child seat"
+        android:id="@+id/check21"/>
+    <CheckBox
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/option1"
+        android:layout_toRightOf="@id/check21"
+
+        android:text="Unlimited milage"
+        android:id="@+id/check31"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Check11"
+        android:text="Amount"
+        android:id="@+id/amount"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Check11"
+        android:text="Total Amount"
+        android:id="@+id/totalAmount"
+        android:layout_toRightOf="@+id/amount"/>
+
+
+</RelativeLayout>

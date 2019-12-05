@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">764928_kulvir_MT</string>
+    <string-array name="carNames">
+        <item>choose your car</item>
+        <item>Swift</item>
+        <item>BMW</item>
+        <item>Audi</item>
+        <item>Handa City</item>
+        <item>Mercedes</item>
+        <item>I20</item>
+        <item>Cadilac</item>
+        <item>Volks wagon</item>
+    </string-array>
+    <string-array name="carRents">
+        <item>$0.0</item>
+        <item>$50.0</item>
+        <item>$75.0</item>
+        <item>$48.0</item>
+        <item>$67.0</item>
+        <item>$99.9</item>
+        <item>$78.5</item>
+        <item>$60.0</item>
+        <item>$48.7</item>
+
+
+    </string-array>
+</resources>
